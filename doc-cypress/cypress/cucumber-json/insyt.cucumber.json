@@ -1,0 +1,92 @@
+[
+  {
+    "description": "  I want to submit a claim as claimant",
+    "keyword": "Feature",
+    "name": "Claim Submission",
+    "line": 1,
+    "id": "claim-submission",
+    "tags": [],
+    "uri": "insyt.feature",
+    "elements": [
+      {
+        "id": "claim-submission;submit-a-claim-as-claimant",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Submit a claim as claimant",
+        "tags": [
+          {
+            "name": "@reg",
+            "line": 5
+          },
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open Insyt promotion page",
+            "result": {
+              "status": "passed",
+              "duration": 4100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I Select UK region",
+            "result": {
+              "status": "passed",
+              "duration": 3463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I Select Appliance Cashback promotion",
+            "result": {
+              "status": "passed",
+              "duration": 4852000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I accept cookies",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I Claim Now and accept terms",
+            "result": {
+              "status": "passed",
+              "duration": 15715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I see Claim Form",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

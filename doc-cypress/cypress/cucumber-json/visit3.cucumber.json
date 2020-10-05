@@ -1,0 +1,308 @@
+[
+  {
+    "description": "  Claimant want to submit a claim in UK Appliance Cashback",
+    "keyword": "Feature",
+    "name": "Submit a Claim",
+    "line": 1,
+    "id": "submit-a-claim",
+    "tags": [],
+    "uri": "visit3.feature",
+    "elements": [
+      {
+        "id": "submit-a-claim;claimant-submit-a-successful-claim",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Claimant submit a successful claim",
+        "tags": [
+          {
+            "name": "@reg",
+            "line": 5
+          },
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Claimant open Insyt promotion page",
+            "result": {
+              "status": "passed",
+              "duration": 4119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Claimant select \"UK\" region",
+            "result": {
+              "status": "passed",
+              "duration": 5449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Claimant select \"Appliance Cashback\" promotion",
+            "result": {
+              "status": "passed",
+              "duration": 4323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Claimant Click on Claim Now",
+            "result": {
+              "status": "passed",
+              "duration": 7166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Claimant accept terms",
+            "result": {
+              "status": "passed",
+              "duration": 9710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Claimant see claim form",
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Email",
+                      "Title",
+                      "FirstName",
+                      "LastName",
+                      "Phone",
+                      "DOB"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "p@g.com",
+                      "Mr",
+                      "Pradeep",
+                      "Kumar",
+                      "9890989089",
+                      "02 Aug 2002"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "Claimant enters personal details",
+            "result": {
+              "status": "passed",
+              "duration": 2312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Claimant Press Next",
+            "result": {
+              "status": "passed",
+              "duration": 8038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Claimant see product selection page",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "Claimant select purchased product \"Washing Machine\"",
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Claimant enter a random imei number",
+            "result": {
+              "status": "passed",
+              "duration": 626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Claimant enter \"40\" as product price",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Add Product",
+            "result": {
+              "status": "passed",
+              "duration": 10377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Claimant Press Next for retailers page",
+            "result": {
+              "status": "passed",
+              "duration": 8475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Claimant Select the retailer \"Michael's Test Store\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Claimant Press Next to enter date of purchase",
+            "result": {
+              "status": "passed",
+              "duration": 7529000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "Claimant enter date of purchase as \"16 Aug 2020\"",
+            "result": {
+              "status": "passed",
+              "duration": 1068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Claimant Press Next to upload documents to prove purchase",
+            "result": {
+              "status": "passed",
+              "duration": 6494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Upload document \"pbox-1.pdf\"",
+            "result": {
+              "status": "passed",
+              "duration": 11312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Claimant Press Next to enter address",
+            "result": {
+              "status": "passed",
+              "duration": 7258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "Claimant Enter pin \"345\" and address",
+            "result": {
+              "status": "passed",
+              "duration": 8558000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Type",
+                      "SortCode",
+                      "AccNo"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Pradeep",
+                      "Person",
+                      "50-40-30",
+                      "12389098"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Claimant enters bank details",
+            "result": {
+              "status": "passed",
+              "duration": 8961000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Claimant Submit Claim",
+            "result": {
+              "status": "passed",
+              "duration": 10130000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
