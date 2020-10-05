@@ -1,0 +1,12 @@
+version: '3'
+services:
+  cypress-bdd:
+    image: cypress
+    build: ./dockerised-cypress
+    container_name: cypress
+    environment:
+      - CYPRESS_TARGET=http://uat-demo.insytpromotions.com/
+    command: bash -c "npx cypress run --spec 'cypress/integration/visit.feature' && node 'cypress/plugins/cr2.js'" 
+    volumes:
+      - ./dockerised-cypress/cypress:/app/cypress
+      - ./dockerised-cypress/cypress.json:/app/cypress.json
