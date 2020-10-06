@@ -16,8 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    workingDirectory: 'doc-cypress/'
-    npm install
+    npm -g install doc-cypress/
     npm run build
   displayName: 'npm install'
 - task: Npm@1
