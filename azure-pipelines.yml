@@ -16,7 +16,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    workingDirectory: '$(System.DefaultWorkingDirectory)/doc-cypress/'
     npm install
     npm run build
   displayName: 'npm install'
@@ -29,5 +28,5 @@ steps:
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '*.xml'
-    searchFolder: '$(System.DefaultWorkingDirectory)/doc-cypress/cypress/reports'
+    searchFolder: '$(System.DefaultWorkingDirectory)/cypress/reports'
     mergeTestResults: true
